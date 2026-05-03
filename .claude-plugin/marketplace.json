@@ -6,9 +6,9 @@
 	},
 	"plugins": [
 		{
-			"name": "comitter",
-			"source": "./plugins/comitter",
-			"description": "Stage commits intelligently based on code changes and write commit messages",
+			"name": "commit",
+			"source": "./plugins/commit",
+			"description": "Stage atomic commits intelligently based on code changes and write commit messages",
 			"version": "1.0.0"
 		}
 	]
