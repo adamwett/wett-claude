@@ -1,0 +1,13 @@
+{
+  "name": "wett-claude",
+  "private": true,
+  "version": "1.0.0",
+  "description": "my personal claude code plugin marketplace",
+  "keywords": [],
+  "author": "adamwett",
+  "license": "MIT",
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.14"
+  }
+}

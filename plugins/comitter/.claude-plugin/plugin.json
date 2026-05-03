@@ -1,0 +1,10 @@
+{
+	"name": "comitter",
+	"description": "Stage commits intelligently based on code changes and write commit messages",
+	"version": "1.0.0",
+	"author": {
+		"name": "Adam Wett",
+		"email": "adamwettreich@icloud.com",
+		"url": "https://github.com/adamwett"
+	}
+}

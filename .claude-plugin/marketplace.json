@@ -1,0 +1,15 @@
+{
+	"name": "adamwett",
+	"owner": {
+		"name": "Adam Wett",
+		"email": "adamwettreich@icloud.com"
+	},
+	"plugins": [
+		{
+			"name": "comitter",
+			"source": "./plugins/comitter",
+			"description": "Stage commits intelligently based on code changes and write commit messages",
+			"version": "1.0.0"
+		}
+	]
+}
