@@ -1,6 +1,6 @@
 {
-	"name": "comitter",
-	"description": "Stage commits intelligently based on code changes and write commit messages",
+	"name": "commitr",
+	"description": "Stage atomic commits intelligently based on code changes and write commit messages",
 	"version": "1.0.0",
 	"author": {
 		"name": "Adam Wett",

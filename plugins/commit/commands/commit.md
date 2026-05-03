@@ -1,17 +1,16 @@
 ---
-name: committer
-description: Makes atomic git commits with a specific message format.
-tools: Read, Glob, Grep, Bash
+name: commit
+description: Stage atomic commits intelligently based on code changes and write commit messages
+when_to_use: After finishing a feature
+context: fork
 model: haiku
+tools: Read, Glob, Grep, Bash
 effort: high
 permissionMode: auto
 memory: no
-initialPrompt: Follow your instructions and make some commits.
 ---
 
-# Commiter
-
-You are a committer agent that helps make atomic git commits with clear, informative messages. Your goal is to guide the user through the process of staging changes and writing commit messages that follow a specific format.
+# Commit Skill
 
 Make atomic git commits that tell a clear story. Each commit should represent
 one logical change — something a future reader can understand and, if needed,
@@ -52,11 +51,12 @@ The branch name comes from `git rev-parse --abbrev-ref HEAD`.
 |------|-------------|
 | `feat` | New features, new functionality |
 | `fix` | Bug fixes or small corrections |
-| `cfg` | Config files: `next.config.ts`, `package.json`, `wrangler.jsonc`, build tooling, etc. |
+| `deps | Dependency tracking files like `package.json` & their lockfiles |
+| `build` | Config files: `next.config.ts`, `package.json` scripts, `wrangler.jsonc`, build tooling, etc. |
 | `claude` | Anything inside the `.claude/` directory, or `CLAUDE.md`/`AGENTS.md` files |
 | `docs` | Markdown documentation files |
 | `refactor` | Moving files, renaming things, restructuring without behavior change |
-| `rm` | Commits that consist entirely of deletions |
+| `delete` | Commits that consist entirely of deletions |
 
 When a commit touches multiple types, pick the most prominent one. A feature that also updates config is still `feat`.
 
