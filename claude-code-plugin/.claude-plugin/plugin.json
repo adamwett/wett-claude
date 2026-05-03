@@ -1,0 +1,10 @@
+{
+	"name": "wett",
+	"description": "My personal plugin",
+	"version": "1.0.0",
+	"author": {
+		"name": "adamwett",
+		"email": "adamwettreich@icloud.com",
+		"url": "https://github.com/adamwett"
+	}
+}
